@@ -1,0 +1,39 @@
+<div class="body" id="about">
+
+    <div class="heading">
+        <h2 style="font-weight: 500;text-align: center;"> OUR PACKAGES. </h2>
+    </div>
+
+    <div class="package-cards">
+
+        <div class="card-1" *ngFor = "let item of time">
+            
+	    <div class="images">
+		    <img class="image" src="{{item.Image}}">
+	    </div>
+
+	    <div class="package">
+	        <h1>{{item.Package}}</h1>
+	        <h2>{{item.Title}}</h2>
+	    </div>
+
+	    <div class="content">
+		<h3>{{item.Price}}</h3>
+		<p>{{item.Description}}</p>
+	    </div>
+
+        </div>
+
+        <!-- <div class="card-1">
+
+        </div>
+        <div class="card-1">
+
+        </div> -->
+    </div>
+    <div class="why-us">
+        <h2 style="font-weight: 500;text-align: center;">WHY US?.</h2>
+
+        <p>{{whyus}}</p>
+    </div>
+</div>

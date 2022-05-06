@@ -1,0 +1,66 @@
+.body{
+    /* position:relative; */
+    /* background-color: rgb(13, 214, 214); */
+    background-image: url('/assets/BG.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    /* width: 100%;
+    height: 100%; */
+    width:100%;
+    margin: 0;
+    /* position:absolute;z-index:99; */
+    /* width:100vw; */
+    top:0;
+    left:0;
+    /* height:100vh;
+    width: 100vw;
+    overflow-x: hidden; */
+}
+
+.content{
+    margin-left: 4%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    display: flex;
+}
+
+
+.text{
+    color: white;
+    font-weight: 400;
+    padding-right:45%;
+}
+
+.btn{
+    margin-top:15px;
+}
+
+.button{
+    width: 198px;
+    height: 52px;
+    /* left: 161px;
+    top: 577px; */
+    /* background: radial-gradient(497.78% 2795.16% at 68.96% 48.89%, #2F0F72 7.82%, rgba(251, 250, 254, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-color: rgb(5, 29, 71);
+    border-radius: 6px;
+    border: none;
+    color:white;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button::hover {
+    background-color: rgb(157, 157, 212);
+}
+
+.bubble img{
+    /* width: 944px; */
+    /* left: 572px; */
+    width: 70%;
+    /* padding-left: 60%; */
+    opacity: 0.5;
+}

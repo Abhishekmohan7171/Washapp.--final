@@ -1,0 +1,40 @@
+<div class="body" id="services">
+    <div class="content-image">
+
+        <div class="content">
+
+            <h2 style="font-weight: 500;">HOW WE WORK?.</h2>
+
+            <p>{{works}}</p>
+
+            <div class="scroll-img"></div>
+
+        </div>
+
+    </div>
+
+
+    <div class="text-services">
+        <h2 style="font-weight: 500; padding-top: 5%;text-align: center;">OUR SERVICES.</h2>
+
+        <div class="rects">
+            <div class="rect-1" *ngFor="let item of services;">
+		    <div class="images"> 
+			    <img class="image" src="{{ item.Image}} " >
+		    </div>
+		    <div class="work">
+			    <p class="works" >  {{ item.Work }} </p>
+		    </div>
+            </div>
+            <!-- <div class="rect-1">
+                <h1 class="serv" style="font-weight: 200;">Bike<br> Wash</h1>
+            </div>
+            <div class="rect-1">
+                <h1 class="serv" style="font-weight: 200;">Car <br> Detailing</h1>
+            </div>
+            <div class="rect-1">
+                <h1 class="serv" style="font-weight: 200;">Vehicle<br>Service</h1>
+            </div> -->
+        </div>
+    </div>
+</div>

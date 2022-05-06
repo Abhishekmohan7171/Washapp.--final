@@ -1,0 +1,35 @@
+<div class="body">
+    <div class="header">
+        <h1 style="text-align: center;">Washapp.</h1>
+    </div>
+    <div class="section">
+        <div class="container">
+
+            <div class="login-form">
+                <div class="inputt">
+                    <form action="" [formGroup]="profileForm" (submit)="addToDb()">
+                        <div class="inputs">
+                            <label for="" style="color: black;font-size: small;">Email</label> <br>
+                            <input type="email" class="input" name="email" formControlName="email"> <br>
+                            <label for="" style="color: black;font-size: small;">Password</label> <br>
+                            <input type="password" class="input" name="password" formControlName="password">
+                        </div>
+
+                        <div class="button">
+                            <!-- <button class="btn" (click)="addToDb()">Login</button> -->
+                            <input class="btn" type="submit" value="Login">
+                            
+                        </div>
+
+                    </form>
+
+                    <div class="loader" *ngIf="status" ></div> 
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
